@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className='row'>
             <div className='header-wrapper'>
               <div className="logo">
-                <Link to='/' className='text-decoration-none'> ECommerce</Link>
+                <Link to='/' className='text-decoration-none'> EpicBuy</Link>
               </div>
               <div className="user-actions">
                 <Link to="/cart" >Cart</Link>

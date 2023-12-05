@@ -32,7 +32,7 @@ const LandingPage = () => {
       <div className="home container">
         <div className="row">
           <div className="col-12">
-            <h2 className="home-title">Welcome to Online Shopping ...</h2>
+            <h2 className="home-title">Greetings to our Shopping Hub!</h2>
           </div>
           <div className="col-12">
             <div className="category-list">
@@ -54,7 +54,19 @@ const LandingPage = () => {
             <div className="category-title ">Select a category to start shopping</div>
           </div>
         </div>
+        
       </div>
+      
+      <div className="text-light fixed-bottom w-100" style={{"background-color": "#ecf0f1"}}>
+            <div className="my-auto p-2">
+            <h6 className="text-center text-dark my-auto">
+            
+        © Copyright 2023 Built with ♡ by Lawanu Borthakur
+    
+            </h6>
+            </div>
+            
+        </div>
     </>
   )
 
